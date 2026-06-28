@@ -34,20 +34,30 @@ npm install
 
 Start MongoDB and restore the database if a backup is provided.
 
-### Run the backend
+
+
+## Run Backend
 
 ```bash
 cd server
+npm install
 npm start
 ```
 
-### Run the frontend
+## Run Frontend
 
 ```bash
 cd client
+npm install
 npm run dev
 ```
 
+## Database
+
+- Install MongoDB.
+- Restore the database if a backup is provided.
+- Update the MongoDB connection string if required.
+  
 ## Author
 
 Pratima R
